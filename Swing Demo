@@ -1,0 +1,24 @@
+import javax.swing.*;
+public class swingDemo 
+{
+
+	swingDemo()
+
+{
+	JFrame jf = new JFrame ("A Sample Swing Program");
+
+		jf.setSize (400,300);
+		jf.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
+
+	JLabel lb = new JLabel("hi"); 
+		jf.add(lb);
+		jf.setVisible (true);
+}
+
+	public static void main(String[] args) {
+		swingDemo sd = new swingDemo();
+
+}
+
+
+}
